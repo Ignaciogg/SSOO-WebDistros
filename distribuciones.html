@@ -1,162 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>SSOO - Historia y distribuciones Linux</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-    <link href="styles.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- Responsive navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="historia.html"
-          >Historia y distribuciones Linux</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="historia.html">Historia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link translate" id="esc">Escritorio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link translate" id="ser">Servidores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link translate" id="mov">Móvil</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Page header with logo and tagline-->
-    <header class="py-5 bg-light border-bottom mb-4">
-      <div class="container">
-        <div class="text-center my-5">
-          <h1 class="fw-bolder lang" key="titulo">
-            Distribuciones de Escritorio
-          </h1>
-        </div>
-      </div>
-    </header>
-    <!-- Page content-->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>SSOO - Historia y distribuciones Linux</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Responsive navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <div class="row">
-        <!-- Blog entries-->
-        <div class="col-lg-8">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="card mb-4">
-                <a href="distribuciones_espec.html"
-                  ><img
-                    class="card-img-top"
-                    src="./img/ubuntu.jpg"
-                    alt="Ubuntu"
-                /></a>
-                <div class="card-body">
-                  <div class="small text-muted lang" key="ver1">
-                    Última versión estable: 22.04 LTS 21/4/2022
-                  </div>
-                  <h2 class="card-title h4 lang" key="nombre1">Ubuntu</h2>
-                  <p class="card-text lang" key="desc1">
-                    Es la distro más usada en el mundo. Principalmente diseñada
-                    para escritorio y servidores.
-                  </p>
-                  <a class="btn btn-primary" href="distribuciones_espec.html"
-                    >Más info →</a
-                  >
+      <a class="navbar-brand" href="historia.html">Historia y distribuciones Linux</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="historia.html">Historia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link translate" id="esc">Escritorio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link translate" id="ser">Servidores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link translate" id="mov">Móvil</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page header with logo and tagline-->
+  <header class="py-5 bg-light border-bottom mb-4">
+    <div class="container">
+      <div class="text-center my-5">
+        <h1 class="fw-bolder lang" key="titulo">
+          Distribuciones de Escritorio
+        </h1>
+      </div>
+    </div>
+  </header>
+  <!-- Page content-->
+  <div class="container">
+    <div class="row">
+      <!-- Blog entries-->
+      <div class="col-lg-8">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card mb-4">
+              <a><img id="img1" class="card-img-top" src="./img/ubuntu.jpg" alt="Ubuntu" /></a>
+              <div class="card-body">
+                <div class="small text-muted lang" key="ver1">
+                  Última versión estable: 22.04 LTS 21/4/2022
                 </div>
-              </div>
-              <div class="card mb-4">
-                <a href="#!"
-                  ><img class="card-img-top" src="./img/mint.jpg" alt="Mint"
-                /></a>
-                <div class="card-body">
-                  <div class="small text-muted lang" key="ver2">
-                    Última versión estable: 21.1 'Vera' 19/12/2022
-                  </div>
-                  <h2 class="card-title h4 lang" key="nombre2">Mint</h2>
-                  <p class="card-text lang" key="desc2">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Reiciendis aliquid atque, nulla.
-                  </p>
-                  <a class="btn btn-primary" href="#!">Más info →</a>
-                </div>
+                <h2 class="card-title h4 lang" key="nombre1">Ubuntu</h2>
+                <p class="card-text lang" key="desc1">
+                  Es la distro más usada en el mundo. Principalmente diseñada
+                  para escritorio y servidores.
+                </p>
+                <a id="link1" class="btn btn-primary" href="https://wiki.ubuntu.com/SpanishDocumentation">Más info →</a>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="card mb-4">
-                <a href="#!"
-                  ><img
-                    class="card-img-top"
-                    src="./img/fedora.jpg"
-                    alt="Fedora"
-                /></a>
-                <div class="card-body">
-                  <div class="small text-muted lang" key="ver3">
-                    Última versión estable: 37 15/11/2022
-                  </div>
-                  <h2 class="card-title h4 lang" key="nombre3">Fedora</h2>
-                  <p class="card-text lang" key="desc3">
-                    Es la distro más usada en el mundo. Principalmente diseñada
-                    para escritorio y servidores.
-                  </p>
-                  <a class="btn btn-primary" href="#!">Más info →</a>
+            <div class="card mb-4">
+              <a href="#!"><img id="img2" class="card-img-top" src="./img/mint.jpg" alt="Mint" /></a>
+              <div class="card-body">
+                <div class="small text-muted lang" key="ver2">
+                  Última versión estable: 21.1 'Vera' 19/12/2022
                 </div>
+                <h2 class="card-title h4 lang" key="nombre2">Mint</h2>
+                <p class="card-text lang" key="desc2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Reiciendis aliquid atque, nulla.
+                </p>
+                <a id="link2" class="btn btn-primary" href="https://www.linuxmint.com/documentation/user-guide/Cinnamon/spanish_mexico_17.0.pdf">Más info →</a>
               </div>
-              <div class="card mb-4">
-                <a href="#!"
-                  ><img
-                    class="card-img-top"
-                    src="./img/arch.png"
-                    alt="Arch Linux"
-                /></a>
-                <div class="card-body">
-                  <div class="small text-muted lang" key="ver4">
-                    Última versión estable: 1/6/2022
-                  </div>
-                  <h2 class="card-title h4 lang" key="nombre4">Arch Linux</h2>
-                  <p class="card-text lang" key="desc4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a
-                    laboriosam.
-                  </p>
-                  <a class="btn btn-primary" href="#!">Más info →</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card mb-4">
+              <a href="#!"><img id="img3" class="card-img-top" src="./img/fedora.jpg" alt="Fedora" /></a>
+              <div class="card-body">
+                <div class="small text-muted lang" key="ver3">
+                  Última versión estable: 37 15/11/2022
                 </div>
+                <h2 class="card-title h4 lang" key="nombre3">Fedora</h2>
+                <p class="card-text lang" key="desc3">
+                  Es la distro más usada en el mundo. Principalmente diseñada
+                  para escritorio y servidores.
+                </p>
+                <a id="link3" class="btn btn-primary" href="https://docs.fedoraproject.org/es/docs/">Más info →</a>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <a href="#!"><img id="img4" class="card-img-top" src="./img/arch.png" alt="Arch Linux" /></a>
+              <div class="card-body">
+                <div class="small text-muted lang" key="ver4">
+                  Última versión estable: 1/6/2022
+                </div>
+                <h2 class="card-title h4 lang" key="nombre4">Arch Linux</h2>
+                <p class="card-text lang" key="desc4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a
+                  laboriosam.
+                </p>
+                <a id="link4" class="btn btn-primary" href="https://wiki.archlinux.org/title/Main_page_(Espa%C3%B1ol)">Más info →</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">
-          Grupo 4 de Sistemas Operativos - 2023
-        </p>
-      </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
-  </body>
+  </div>
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">
+        Grupo 4 de Sistemas Operativos - 2023
+      </p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
