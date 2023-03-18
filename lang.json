@@ -31,17 +31,17 @@
   },
   "mov": {
     "titulo": "Distribuciones Móviles",
-    "nombre1": "Mov1",
-    "nombre2": "Mov2",
-    "nombre3": "Mov3",
-    "nombre4": "Mov4",
-    "ver1": "",
-    "ver2": "",
-    "ver3": "",
-    "ver4": "",
-    "desc1": "Mov1",
-    "desc2": "Mov2",
-    "desc3": "Mov3",
-    "desc4": "Mov4"
+    "nombre1": "Android",
+    "nombre2": "Ubuntu Touch",
+    "nombre3": "Sailfish OS",
+    "nombre4": "PostmarketOS",
+    "ver1": "Última versión estable: Android 12, 10/2021",
+    "ver2": "Última versión estable: 16.04 LTS, 21/4/2022",
+    "ver3": "Última versión estable: Sailfish OS 4.3, 10/2021",
+    "ver4": "Última versión estable: v21.11.04, 11/2021",
+    "desc1": "Es la distribución de Linux para dispositivos móviles más utilizada en todo el mundo. Es el sistema operativo principal de la mayoría de los teléfonos inteligentes y tabletas Android.",
+    "desc2": "Es una distribución de Linux para dispositivos móviles desarrollada por Canonical, la misma compañía detrás de la popular distribución de Linux Ubuntu. Se ha diseñado para ofrecer una experiencia de escritorio completa en dispositivos móviles.",
+    "desc3": "Es una distribución de Linux para dispositivos móviles desarrollada por Jolla. Se basa en el núcleo de Linux y está diseñada para ser altamente personalizable, segura y fácil de usar.",
+    "desc4": "Es una distribución de Linux para dispositivos móviles de código abierto y enfocada en la seguridad y la privacidad. Está diseñada para funcionar en dispositivos antiguos y reciclados, y se actualiza regularmente para garantizar la compatibilidad con los últimos dispositivos móviles."
   }
 }
