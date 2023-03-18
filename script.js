@@ -47,11 +47,11 @@ escritorio.addEventListener("click", function() {
 });
 
 servidor.addEventListener("click", function() {
-  imagen1.src = "./img/";
+  imagen1.src = "./img/debian.jpeg";
   imagen2.src = "./img/";
   imagen3.src = "./img/";
   imagen4.src = "./img/";
-  link1.href = "";
+  link1.href = "https://www.debian.org/doc/index.es.html";
   link2.href = "";
   link3.href = "";
   link4.href = "";
