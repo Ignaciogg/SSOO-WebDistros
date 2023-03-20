@@ -17,17 +17,17 @@
   "ser": {
     "titulo": "Distribuciones de Servidores",
     "nombre1": "Debian",
-    "nombre2": "Ser2",
-    "nombre3": "Ser3",
-    "nombre4": "Ser4",
-    "ver1": "",
-    "ver2": "",
-    "ver3": "",
-    "ver4": "",
-    "desc1": "Ser1",
-    "desc2": "Ser2",
-    "desc3": "Ser3",
-    "desc4": "Ser4"
+    "nombre2": "CentOS",
+    "nombre3": "SUSE Linux Enterprise Server",
+    "nombre4": "Raspberry Pi OS Lite",
+    "ver1": "Última versión: 11.6  17/12/2022",
+    "ver2": "Última versión: 9  3/12/2021",
+    "ver3": "Última versión: 15 Service Pack 4 24/06/2022",
+    "ver4": "Última versión: Raspberry Pi OS (32-bit and 64-bit) 21/02/2023",
+    "desc1": "Debian es una de las mejores distribuciones Linux que podemos encontrar. Es una de las más puras, que mejor rendimiento y estabilidad ofrecen y de las que mejor soporte y comunidad gratuita ofrece a los usuarios.",
+    "desc2": "CentOS es una distribución para servidores basada en Red Hat pero mantenida por la comunidad. Entre sus principales características podemos destacar que se trata de un sistema mucho más pequeño que otras distros, por lo que cada administrador puede configurarlo según sus necesidades, evitando tener paquetes innecesarios instalados de serie.",
+    "desc3": "Si lo que se desea es sobre todo tener un soporte técnico profesional siempre disponible, SLES es una de las mejores distros en este aspecto. SUSE Linux Enterprise Server es una distro basada en OpenSUSE pero preparada para brindar a los usuarios la mejor estabilidad y el mejor rendimiento posible. ",
+    "desc4": "Raspberry Pi OS Lite es una distribución Linux, basada en Debian, especialmente creada para funcionar en este micro-ordenador."
   },
   "mov": {
     "titulo": "Distribuciones Móviles",

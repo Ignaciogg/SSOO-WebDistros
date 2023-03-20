@@ -48,13 +48,13 @@ escritorio.addEventListener("click", function() {
 
 servidor.addEventListener("click", function() {
   imagen1.src = "./img/debian.jpeg";
-  imagen2.src = "./img/";
-  imagen3.src = "./img/";
-  imagen4.src = "./img/";
+  imagen2.src = "./img/centos.png";
+  imagen3.src = "./img/suse.jpg";
+  imagen4.src = "./img/raspb.png";
   link1.href = "https://www.debian.org/doc/index.es.html";
-  link2.href = "";
-  link3.href = "";
-  link4.href = "";
+  link2.href = "https://docs.centos.org/en-US/docs/";
+  link3.href = "https://documentation.suse.com/es-es/sles/15-SP1/html/SLES-all/index.html";
+  link4.href = "https://www.raspberrypi.com/documentation/computers/getting-started.html";
 });
 
 movil.addEventListener("click", function() {
