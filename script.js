@@ -58,12 +58,12 @@ servidor.addEventListener("click", function() {
 });
 
 movil.addEventListener("click", function() {
-  imagen1.src = "./img/";
-  imagen2.src = "./img/";
-  imagen3.src = "./img/";
-  imagen4.src = "./img/";
-  link1.href = "";
-  link2.href = "";
-  link3.href = "";
-  link4.href = "";
+  imagen1.src = "./img/android.webp";
+  imagen2.src = "./img/ubuntu-touch.webp";
+  imagen3.src = "./img/sailfish.webp";
+  imagen4.src = "./img/postmarket.webp";
+  link1.href = "https://www.android.com/intl/es_es/";
+  link2.href = "https://ubuntu-touch.io/es/";
+  link3.href = "https://docs.sailfishos.org/";
+  link4.href = "https://wiki.postmarketos.org/wiki/Contributing";
 });
